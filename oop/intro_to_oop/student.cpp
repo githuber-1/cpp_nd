@@ -5,7 +5,6 @@
 
 using namespace std;
 
-// TODO: Define "Student" class
 class Student {
     public:
         // constructor
@@ -46,7 +45,6 @@ class Student {
 
 };
 
-// TODO: Test
 int main() {
     // valid
     
