@@ -33,6 +33,8 @@ tuple
 -
 algorithm
 -
+memory
+-
 graphedge.h
 /home/ian/repos/cpp_nd/memory_management/src/graphedge.h
 graphnode.h
