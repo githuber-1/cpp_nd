@@ -1,3 +1,0 @@
-/home/ian/repos/cpp_nd/memory_management/build/CMakeFiles/rebuild_cache.dir
-/home/ian/repos/cpp_nd/memory_management/build/CMakeFiles/edit_cache.dir
-/home/ian/repos/cpp_nd/memory_management/build/CMakeFiles/membot.dir
