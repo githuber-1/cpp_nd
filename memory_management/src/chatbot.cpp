@@ -84,7 +84,7 @@ ChatBot::ChatBot(ChatBot &&source) // move constructor
     _chatLogic->SetChatbotHandle(this);
 }
 
-ChatBot &ChatBot::operator=() // move assignment operator
+ChatBot &ChatBot::operator=(ChatBot &&source) // move assignment operator
 {
     std::cout << "ChatBot MOVE ASSIGNMENT OPERATOR" << std::endl;
     _chatLogic = source._chatLogic;
