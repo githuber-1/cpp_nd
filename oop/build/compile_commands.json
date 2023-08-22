@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/ian/repos/cpp_nd/oop/build",
+  "command": "/usr/bin/g++   -I/home/ian/repos/cpp_nd/oop/include  -g   -Wall -Wextra -std=gnu++17 -o CMakeFiles/monitor.dir/src/format.cpp.o -c /home/ian/repos/cpp_nd/oop/src/format.cpp",
+  "file": "/home/ian/repos/cpp_nd/oop/src/format.cpp"
+},
+{
+  "directory": "/home/ian/repos/cpp_nd/oop/build",
+  "command": "/usr/bin/g++   -I/home/ian/repos/cpp_nd/oop/include  -g   -Wall -Wextra -std=gnu++17 -o CMakeFiles/monitor.dir/src/linux_parser.cpp.o -c /home/ian/repos/cpp_nd/oop/src/linux_parser.cpp",
+  "file": "/home/ian/repos/cpp_nd/oop/src/linux_parser.cpp"
+},
+{
+  "directory": "/home/ian/repos/cpp_nd/oop/build",
+  "command": "/usr/bin/g++   -I/home/ian/repos/cpp_nd/oop/include  -g   -Wall -Wextra -std=gnu++17 -o CMakeFiles/monitor.dir/src/main.cpp.o -c /home/ian/repos/cpp_nd/oop/src/main.cpp",
+  "file": "/home/ian/repos/cpp_nd/oop/src/main.cpp"
+},
+{
+  "directory": "/home/ian/repos/cpp_nd/oop/build",
+  "command": "/usr/bin/g++   -I/home/ian/repos/cpp_nd/oop/include  -g   -Wall -Wextra -std=gnu++17 -o CMakeFiles/monitor.dir/src/ncurses_display.cpp.o -c /home/ian/repos/cpp_nd/oop/src/ncurses_display.cpp",
+  "file": "/home/ian/repos/cpp_nd/oop/src/ncurses_display.cpp"
+},
+{
+  "directory": "/home/ian/repos/cpp_nd/oop/build",
+  "command": "/usr/bin/g++   -I/home/ian/repos/cpp_nd/oop/include  -g   -Wall -Wextra -std=gnu++17 -o CMakeFiles/monitor.dir/src/process.cpp.o -c /home/ian/repos/cpp_nd/oop/src/process.cpp",
+  "file": "/home/ian/repos/cpp_nd/oop/src/process.cpp"
+},
+{
+  "directory": "/home/ian/repos/cpp_nd/oop/build",
+  "command": "/usr/bin/g++   -I/home/ian/repos/cpp_nd/oop/include  -g   -Wall -Wextra -std=gnu++17 -o CMakeFiles/monitor.dir/src/processor.cpp.o -c /home/ian/repos/cpp_nd/oop/src/processor.cpp",
+  "file": "/home/ian/repos/cpp_nd/oop/src/processor.cpp"
+},
+{
+  "directory": "/home/ian/repos/cpp_nd/oop/build",
+  "command": "/usr/bin/g++   -I/home/ian/repos/cpp_nd/oop/include  -g   -Wall -Wextra -std=gnu++17 -o CMakeFiles/monitor.dir/src/system.cpp.o -c /home/ian/repos/cpp_nd/oop/src/system.cpp",
+  "file": "/home/ian/repos/cpp_nd/oop/src/system.cpp"
+}
+]

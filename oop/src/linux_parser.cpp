@@ -12,6 +12,8 @@ using std::string;
 using std::to_string;
 using std::vector;
 
+#define printVariableNameAndValue(x) std::cout<<"The name of variable **"<<(#x)<<"** and the value of variable is => "<<x<<"\n"
+
 // DONE: An example of how to read data from the filesystem
 string LinuxParser::OperatingSystem() {
   string line;
@@ -172,7 +174,7 @@ int LinuxParser::RunningProcesses()
 // Read and return the command associated with a process
 string LinuxParser::Command(int pid)
 {
-  string file = kProcDirectory + to_string(pid) + kCmdlineFilename;
+  string file = to_string(pid) + kCmdlineFilename;
   return getSingleValueFromFile<string>(file);
 }
 
@@ -190,7 +192,7 @@ string LinuxParser::Ram(int pid)
 string LinuxParser::Uid(int pid)
 { 
   string key = "Uid:";
-  string file = kProcDirectory +to_string(pid) + kStatusFilename;
+  string file = to_string(pid) + kStatusFilename;
   return getKeyValue<string>(key, file);
 }
 
@@ -200,7 +202,7 @@ string LinuxParser::User(int pid)
   string uid = Uid(pid);
   string line, user, x, user_id;
   
-  std::ifstream stream(kProcDirectory +to_string(pid) + kStatusFilename);
+  std::ifstream stream(kPasswordPath);
   if (stream.is_open())
   {
     while(std::getline(stream, line))
@@ -214,6 +216,7 @@ string LinuxParser::User(int pid)
       }
     }
   }
+  //printVariableNameAndValue(user);
   return user;
 }
 
